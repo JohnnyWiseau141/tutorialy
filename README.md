@@ -2,7 +2,7 @@
 
 # Assignments for 4/22/21
 
-1. Do more biotech formula programs
+1. Do more biotech formula programs. first up is a conversion program from C° to F° and vise versa
 
 2. Modify density programs so after three invalid choices (NOT density or mass) it gives up.
 
