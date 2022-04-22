@@ -21,5 +21,5 @@ if (yourCount !== startingCount ) {
     yourCount = sbeve.inputNumber()
   }
 
-  console.log("You should have guessed what Frankling would have said which is",newCountToGuess+"!")
+  console.log("You should have guessed what Franklin would have said which is",newCountToGuess+"!")
 }

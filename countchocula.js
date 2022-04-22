@@ -23,4 +23,4 @@ if (yourCount !== startingCount ) {
 
     console.log("You ruined it! Way to poop all over the party when you were supposed to type",newCountToGuess+"!")
     
-}
+} 
