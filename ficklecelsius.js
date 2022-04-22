@@ -25,5 +25,14 @@ if (startingUnit === 'fahrenheit') {
     fahrenheitTemp = sbeve.inputNumber()
 
     celsiusConversion = (fahrenheitTemp - 32) * 5/9 
-    console.log(fahrenheitTemp,"°F converts to",celsiusConversion,"°C")
+    console.log(fahrenheitTemp+"°F converts to",celsiusConversion+"°C")
+}
+
+if (startingUnit === 'celsius') {
+    console.log("All right diggity diggity dawg you chose celsius. Please enter the temperature in °C:")
+    var celsiusTemp = sbeve.inputNumber()
+
+    fahrenheitConversion = (celsiusTemp * 9/5) + 32
+
+    console.log(celsiusTemp+"°C converts to", fahrenheitConversion+"°F" )
 }
