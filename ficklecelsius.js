@@ -14,9 +14,9 @@ var startingUnit
 
 startingUnit = sbeve.input()
 
-while (startingUnit !== 'fahrenheit' && startingUnit ==! 'celsius') {
+while (startingUnit !== 'fahrenheit' && startingUnit !== 'celsius') {
     console.log('Wrong choice ya fool! Pick your initial unit of temperature!')
-    startingUnit = sbeve.input()
+    var startingUnit = sbeve.input()
 } 
 
 if (startingUnit === 'fahrenheit') {
