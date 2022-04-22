@@ -8,7 +8,7 @@ console.log("Time to start counting from uno, one by one. Ready or not here we g
 yourCount = sbeve.inputNumber()
 
 if (yourCount !== startingCount ) {
-  console.log("You started incorrectly! Now the game's been ruined!")
+  console.log("You started incorrectly! Now the game's been ruined because you didn't type",startingCount+"!")
 } else {
   var newCountToGuess = yourCount + 1
   
@@ -21,6 +21,6 @@ if (yourCount !== startingCount ) {
       yourCount = sbeve.inputNumber()
     }
 
-    console.log("You ruined it! Way to poop all over the party!")
+    console.log("You ruined it! Way to poop all over the party when you were supposed to type",newCountToGuess+"!")
     
 }
