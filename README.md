@@ -26,3 +26,5 @@ Eg, 1,2,3,4,5,10 BREAK
 Eg, 1,2,3,4,5,6,7 keeps going ETC…
 
 6. Fix the pokemon.js game so it accepts lower case letters as well
+
+7. Get a list of all biotech formulas and send them to sbeve via discord
