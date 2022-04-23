@@ -1,7 +1,4 @@
-const { count } = require("console")
-
 var countCountula = 1
-
 
 while (countCountula <= 30) {
 
@@ -23,11 +20,8 @@ while (countCountula <= 30) {
     }
   }
 
-
   }
   countCountula = countCountula + 1
 
-  
-  
 }
 
