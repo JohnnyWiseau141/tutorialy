@@ -8,7 +8,6 @@ var daChangingNumber
 
 daChangingNumber = startingNumber
 
-console.log( startingNumber - daChangingNumber +1 )
 
 daChangingNumber = startingNumber - daChangingNumber +1
 
