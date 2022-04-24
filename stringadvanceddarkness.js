@@ -8,10 +8,13 @@ console.log("How many times would you like to repeat da Chosen String?")
 
 var repeater = sbeve.inputNumber()
 
+var displayNo = 1
+
 while (repeater > 0) {
 
-console.log(chosenString)
+console.log(displayNo, chosenString)
 
 repeater = repeater - 1
+displayNo = displayNo + 1
 
 } 
