@@ -12,6 +12,8 @@ var yourChoice
 
 yourChoice = sbeve.input()
 
+yourChoice = yourChoice.toLowerCase()
+
 if (yourChoice !== "a" && yourChoice !== "b" && yourChoice !== "c") {
     console.log("What are you too good for the starting three? Fine then, no practical choices for you. You'll be starting out with a normal type, or an electric type, which will make beating Brock an absolute nightmare, ya fool!")
     console.log("A: Do you choose Pikachu, the only practical choice of the two because at least electric will give you a somewhat easier time when you eventually face off against Misty.")
@@ -19,6 +21,8 @@ if (yourChoice !== "a" && yourChoice !== "b" && yourChoice !== "c") {
 
     var secondChoice
     secondChoice = sbeve.input()
+
+    secondChoice = secondChoice.toLowerCase()
 
     if (secondChoice !== "a" && secondChoice !== "b") {
         console.log("All right you Chungus, no animal servant for you. You're kicked out of the Child soldier program. Good luck repelling all those ticks from the tall grass.")
