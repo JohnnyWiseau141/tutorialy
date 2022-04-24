@@ -15,8 +15,19 @@ console.log("Hello there! Are you trying to calculate the density of a solution,
 console.log("Please enter 'density' for the g/mL = dens. formula, or 'mass' for the d*v=mass formula ")
 var chosenFormula = sbeve.input()
 
-if (chosenFormula !== "density" && chosenFormula !== "mass") {
-  console.log("WATCH WHAT YOU'RE TYPING YA FOO!")
+var choiceLimit = 1
+
+while (choiceLimit < 3) {
+  if (chosenFormula !== "density" && chosenFormula !== "mass") {
+    console.log("WATCH WHAT YOU'RE TYPING YA FOO!")
+  }
+
+  if (choiceLimit === 2) {
+    console.log("This is your last chance, spongebob. If you get eels again, you lose! (meaning if you don't type density or mass you lose, ya foo!")
+  }
+
+  choiceLimit = choiceLimit + 1
+  chosenFormula = sbeve.input()
 }
 
 if (chosenFormula === "density") {
