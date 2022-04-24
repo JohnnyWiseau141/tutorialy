@@ -15,7 +15,7 @@ yourChoice = sbeve.input()
 if (yourChoice !== "a" && yourChoice !== "b" && yourChoice !== "c") {
     console.log("What are you too good for the starting three? Fine then, no practical choices for you. You'll be starting out with a normal type, or an electric type, which will make beating Brock an absolute nightmare, ya fool!")
     console.log("A: Do you choose Pikachu, the only practical choice of the two because at least electric will give you a somewhat easier time when you eventually face off against Misty.")
-    console.log("B: Or do you chose Eevee, a normal type, which is LITERALLY the MOST impractical choice to chose, even more inpractical than Charmander, and Charmander doesn't even have any hope to be useful against Misty or Brock")
+    console.log("B: Or do you chose Eevee, a normal type, which is LITERALLY the MOST impractical choice to choose, even more inpractical than Charmander, and Charmander doesn't even have any hope to be useful against Misty or Brock")
 
     var secondChoice
     secondChoice = sbeve.input()
