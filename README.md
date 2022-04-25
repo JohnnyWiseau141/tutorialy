@@ -30,3 +30,11 @@ Eg, 1,2,3,4,5,6,7 keeps going ETC…
 7. Get a list of all biotech formulas and send them to sbeve via discord
 
 8. report progress to sbeve as i do stuff and send the files to him
+
+# Assignments for week of 4-25-22
+
+1. finish everything in heroku (remove toLowerCase from pokemon and use conditionals instead)
+2. find another biotech formula and create a program for it
+3. quiz for awesome people
+4. text adventure game
+5. in temperature conversion, make a loop so it keeps prompting user to put in correct input. do not shut down after bruh moments
