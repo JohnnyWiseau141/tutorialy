@@ -1,7 +1,7 @@
 const { start } = require('repl')
 const sbeve = require('./sbeve.js')
 
-console.log("Choose a number to count to:")
+console.log("Choose a number to count to (you can also choose zero or a negative number):")
 
 var startingNumber = sbeve.inputNumber()
 
