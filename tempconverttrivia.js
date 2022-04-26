@@ -1,6 +1,6 @@
 const sbeve = require('./sbeve.js')
 
-console.log("Enter a Unit of temperature (Kelvin, Fahrenheit, or Celsius):")
+console.log("Enter a your starting unit of temperature (Kelvin, Fahrenheit, or Celsius):")
 
 var userChosenTemp
 userChosenTemp = sbeve.input()
@@ -26,15 +26,21 @@ if (userChosenTemp === "kelvin" || userChosenTemp === "k") {
 
         // conditionals to state trivia about specific celsius temperatures
         if (celTemp >= 100 && celTemp < 101) {
-          console.log(kelvinTemp+"°K converts to", celTemp+"°C. That's the boiling point of water!")
+            console.log(kelvinTemp+"°K converts to", celTemp+"°C. That's the boiling point of water!")
+        } else if (celTemp < -273.15) {
+            console.log(kelvinTemp+"°K converts to", celTemp+"°C. That is physically impossible.")
+        } else if (celTemp > -273.15 && celTemp <= -272) {
+            console.log(kelvinTemp+"°K converts to", celTemp+"°C. That's very close to absolute zero!")
+        } else if (celTemp === -273.15) {
+            console.log(kelvinTemp+"°K converts to", celTemp+"°C. That's absolute zero! The coldest temperature possible!")
         } else if (celTemp >= 0 && celTemp < 1) {
-        console.log(kelvinTemp+"°K converts to", celTemp+"°C. That's the freezing/melting point of water!")
+            console.log(kelvinTemp+"°K converts to", celTemp+"°C. That's the freezing/melting point of water!")
         } else if (celTemp >= 20 && celTemp < 22) {
-          console.log(kelvinTemp+"°K converts to", celTemp+"°C. That's average room temperature!")
+            console.log(kelvinTemp+"°K converts to", celTemp+"°C. That's average room temperature!")
         } else if (celTemp >= 37 && celTemp < 38) {
-          console.log(kelvinTemp+"°K converts to", celTemp+"°C. That's average body temperature!")
+            console.log(kelvinTemp+"°K converts to", celTemp+"°C. That's average body temperature!")
         } else {
-          console.log(kelvinTemp+"°K converts to", celTemp+"°C.")
+            console.log(kelvinTemp+"°K converts to", celTemp+"°C.")
         }
     }
     //conditional to convert from kelvin to fahrenheit
@@ -50,6 +56,12 @@ if (userChosenTemp === "kelvin" || userChosenTemp === "k") {
         // conditionals to state trivia about specific fahrenheit temperatures
         if (fahrTemp >= 68 && fahrTemp < 69) {
             console.log(kelvinTemp+"°K converts to", fahrTemp+"°F. That's average room temperature!")
+        } else if (fahrTemp < -459.67) {
+            console.log(kelvinTemp+"°L converts to", fahrTemp+"°F. That is physically impossible")
+        } else if (fahrTemp === -459.67) {
+            console.log(kelvinTemp+"°K converts to", fahrTemp+"°F. That's absolute zero! The coldest temperature possible!")
+        } else if (fahrTemp > -459.67 && fahrTemp <= -458) {
+            console.log(kelvinTemp+"°K converts to", fahrTemp+"°F. That's very close to absolute zero!")
         } else if (fahrTemp >= 32 && fahrTemp < 33) {
             console.log(kelvinTemp+"°K converts to", fahrTemp+"°F. That's the freezing/melting point of water!")
         } else if (fahrTemp >= 98 && fahrTemp < 99) {
@@ -77,7 +89,18 @@ else if (userChosenTemp === "fahrenheit" || userChosenTemp === "f") {
 
         celTemp = (fahrTemp  - 32) * 5/9
 
-        console.log(fahrTemp+"°F converts to", celTemp+"°C" )
+        // conditionals to state trivia about specific celsius temperatures
+        if (celTemp >= 100 && celTemp < 101) {
+            console.log(fahrTemp+"°F converts to", celTemp+"°C. That's the boiling point of water!")
+          } else if (celTemp >= 0 && celTemp < 1) {
+            console.log(fahrTemp+"°F converts to", celTemp+"°C. That's the freezing/melting point of water!")
+          } else if (celTemp >= 20 && celTemp < 22) {
+            console.log(fahrTemp+"°F converts to", celTemp+"°C. That's average room temperature!")
+          } else if (celTemp >= 37 && celTemp < 38) {
+            console.log(fahrTemp+"°F converts to", celTemp+"°C. That's average body temperature!")
+          } else {
+            console.log(fahrTemp+"°F converts to", celTemp+"°C.")
+          }
 
     }
     //conditional to convert from fahrenheit to kelvin
@@ -90,7 +113,20 @@ else if (userChosenTemp === "fahrenheit" || userChosenTemp === "f") {
 
         kelvinTemp = 5/9 * (fahrTemp + 459.67)
 
-        console.log(fahrTemp+"°F converts to", kelvinTemp+"°C")
+        // conditionals to state trivia about specific kelvin temperatures
+        if (kelvinTemp === 373.15) {
+            console.log(fahrTemp+"°F converts to", kelvinTemp+"°K. That's the boiling point of water!")
+          } else if (kelvinTemp === 273.15) {
+            console.log(fahrTemp+"°F converts to", kelvinTemp+"°K. That's the freezing/melting point of water!")
+          } else if (kelvinTemp === 0) {
+            console.log(fahrTemp+"°F converts to", kelvinTemp+"°K. That's absolute zero! The coldest temperature possible!")
+          } else if (kelvinTemp >= 294.15 && kelvinTemp < 295) {
+            console.log(fahrTemp+"°F converts to", kelvinTemp+"°K. That's average room temperature!")
+          } else if (kelvinTemp ===310.15) {
+            console.log(fahrTemp+"°F converts to", kelvinTemp+"°K. That's average body temperature!")
+          } else {
+            console.log(fahrTemp+"°F converts to", kelvinTemp+"°K.")
+          }
     }
 }
 //conditionals if the user chooses celsius
@@ -111,7 +147,24 @@ else if (userChosenTemp === "celsius" || userChosenTemp === "c" ) {
 
         fahrTemp = (celTemp * 9/5) + 32
 
-        console.log(celTemp+"°F converts to", fahrTemp+"°C" )
+        // conditionals to state trivia about specific fahrenheit temperatures
+        if (fahrTemp >= 68 && fahrTemp < 69) {
+            console.log(celTemp+"°C converts to", fahrTemp+"°F. That's average room temperature!")
+        } else if (fahrTemp < -459.67) {
+            console.log(celTemp+"°C converts to", fahrTemp+"°F. That is physically impossible")
+        } else if (fahrTemp === -459.67) {
+            console.log(celTemp+"°C converts to", fahrTemp+"°F. That's absolute zero! The coldest temperature possible")
+        } else if (fahrTemp > -459.67 && fahrTemp <= -458) {
+            console.log(celTemp+"°C converts to", fahrTemp+"°F. That's very close to absolute zero!")
+        } else if (fahrTemp >= 32 && fahrTemp < 33) {
+            console.log(celTemp+"°C converts to", fahrTemp+"°F. That's the freezing/melting point of water!")
+        } else if (fahrTemp >= 98 && fahrTemp < 99) {
+            console.log(celTemp+"°C converts to", fahrTemp+"°F. That's average body temperature!")
+        } else if (fahrTemp >= 212 && fahrTemp < 213) {
+            console.log(celTemp+"°C converts to", fahrTemp+"°F. That's boiling point of water!")
+        } else {
+            console.log(celTemp+"°C converts to", fahrTemp+"°F.")
+        }
 
     }
     //conditional to convert from celsius to kelvin
@@ -124,6 +177,19 @@ else if (userChosenTemp === "celsius" || userChosenTemp === "c" ) {
 
         kelvinTemp = celTemp + 273.15
 
-        console.log(celTemp+"°C converts to", kelvinTemp+"°K")
+        // conditionals to state trivia about specific kelvin temperatures
+        if (kelvinTemp === 373.15) {
+            console.log(celTemp+"°C converts to", kelvinTemp+"°K. That's the boiling point of water!")
+          } else if (kelvinTemp === 0) {
+            console.log(celTemp+"°C converts to", kelvinTemp+"°K. That's absolute zero! The coldest temperature possible!")
+          } else if (kelvinTemp === 273.15) {
+            console.log(celTemp+"°C converts to", kelvinTemp+"°K. That's the freezing/melting point of water!")
+          } else if (kelvinTemp >= 294.15 && kelvinTemp < 295) {
+            console.log(celTemp+"°C converts to", kelvinTemp+"°K. That's average room temperature!")
+          } else if (kelvinTemp ===310.15) {
+            console.log(celTemp+"°C converts to", kelvinTemp+"°K. That's average body temperature!")
+          } else {
+            console.log(celTemp+"°C converts to", kelvinTemp+"°K.")
+          }
     }
 }
