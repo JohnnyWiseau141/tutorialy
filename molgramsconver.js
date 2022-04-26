@@ -1,5 +1,4 @@
 //Example 1 –Calculate the mass in grams of 3.6 mol of H2SO4.
-
 // Solution
 
 // Look for the atomic masses of hydrogen, sulfur and oxygen.
@@ -38,6 +37,26 @@
 
 const sbeve = require('./sbeve.js')
 
-var firstTest
+console.log("This is it boyos. The penguins of Madagascar are gonna do some science!!")
+console.log("This is a toughie, boys. ")
+console.log("Let's start assuming you only need to calculate the mass in grams of 'x' mol of a singular element.")
 
-firstTest = sbeve.input
+console.log("Enter the atomic mass of your singular element, please and thank you:")
+
+var singleAtomicMass
+singleAtomicMass = sbeve.inputNumber()
+
+
+console.log("Now enter your mol:")
+var firstTestmols
+firstTestmols = sbeve.inputNumber()
+
+
+
+console.log("This is easy. You gotta take the mol, which you entered as", firstTestmols+"mol, and multiply it by the molecular mass which you entered as", singleAtomicMass+"g/mol.")
+
+var convertedGrams
+convertedGrams = singleAtomicMass * firstTestmols 
+
+console.log("Which gives you...",convertedGrams+"grams")
+
