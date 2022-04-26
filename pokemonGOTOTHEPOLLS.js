@@ -1,6 +1,6 @@
 const sbeve = require('./sbeve.js')
 
-console.log("Welcome to your first day of child soldier recruitment and animal rights violations. Your first task to perform is to choose a pokemon you will be putting through torturous conditions. Who will you choose, and who will be spared a fate worse than death?")
+console.log("Welcome to your first day of pokemon rights violations. Your first task to perform is to choose a pokemon you will be putting through torturous conditions. Who will you choose, and who will be spared a fate worse than death?")
 
 console.log("A: Bulbasaur, literally the MOST practical starter in Gen 1 because grass is strong against rock/ground and water, which are the FIRST TWO gym battles.")
 console.log("B: Charmander The MOST impractical starter, but the one everyone gushes and squeals over because it breathes fire and Charizard looks like a Dragon. Ohhhhh so original.")
@@ -12,7 +12,7 @@ var yourChoice
 
 yourChoice = sbeve.input()
 
-yourChoice = yourChoice.toLowerCase()
+
 
 if (yourChoice !== "a" && yourChoice !== "b" && yourChoice !== "c") {
     console.log("What are you too good for the starting three? Fine then, no practical choices for you. You'll be starting out with a normal type, or an electric type, which will make beating Brock an absolute nightmare, ya fool!")
@@ -22,10 +22,10 @@ if (yourChoice !== "a" && yourChoice !== "b" && yourChoice !== "c") {
     var secondChoice
     secondChoice = sbeve.input()
 
-    secondChoice = secondChoice.toLowerCase()
+    secondChoice = secondChoice
 
-    if (secondChoice !== "a" && secondChoice !== "b") {
-        console.log("All right you Chungus, no animal servant for you. You're kicked out of the Child soldier program. Good luck repelling all those ticks from the tall grass.")
+    if (secondChoice !== "a" && secondChoice !== "b" && secondChoice !== "B" && secondChoice !== "B" ) {
+        console.log("All right you Chungus, no animal servant for you. You're kicked out of the program. Good luck repelling all those ticks from the tall grass.")
     } else {
         if (secondChoice === "a") {
             console.log("Ok you decided to go with the yellow version route. Nbd. Brock will be challenging and Misty will be challenging too even with an electric type, but it's certainly gonna be easier than going up against Misty with a fire type. Also since you're in the yellow version route Team Rocket is gonna ambush you at the end of Mt. Moon. Good luck!")
