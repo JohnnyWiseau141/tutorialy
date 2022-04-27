@@ -1,18 +1,31 @@
 const sbeve = require('./sbeve.js')
 
+// SBEVE: display a message if they type in a wrong unit of temperature
+
 console.log("Enter a your starting unit of temperature (Kelvin, Fahrenheit, or Celsius):")
 
 var userChosenTemp
 userChosenTemp = sbeve.input()
 
-userChosenTemp = userChosenTemp
+while (userChosenTemp !== "kelvin"
+        && userChosenTemp !== "k"
+        && userChosenTemp !== "fahrenheit"
+        && userChosenTemp !== "f"
+        && userChosenTemp !== "celsius" 
+        && userChosenTemp !== "c" ) {
+            
+            console.log ("Enter the right unit of temperature, please and thank you!")
+            userChosenTemp =  sbeve.input()
+        }
+// SBEVE bruh what is this?
 
 //these are the conditionals when the user chooses "Kelvin"
 if (userChosenTemp === "kelvin" || userChosenTemp === "k") {
     console.log("You chose Kelvin. Now choose which unit you would like to convert to (Celsius or Fahrenheit):")
     var usersKelConvertUnit
     usersKelConvertUnit = sbeve.input()
-    usersKelConvertUnit = usersKelConvertUnit
+
+    // SBEVE bruh what is this?
 
     //the conditional to convert from kelvin to celsius
     if (usersKelConvertUnit === "celsius" || usersKelConvertUnit === "c") {
@@ -78,7 +91,9 @@ else if (userChosenTemp === "fahrenheit" || userChosenTemp === "f") {
     console.log("You chose Fahrenheit. Now choose which unit you would like to convert to (Celsius or Kelvin):")
     var usersFahrConvertUnit
     usersFahrConvertUnit = sbeve.input()
-    usersFahrConvertUnit = usersFahrConvertUnit
+
+    // SBEVE bruh what is this?
+
     //the conditional to convert from fahrenheit to celsius
     if (usersFahrConvertUnit === "celsius" || usersFahrConvertUnit === "c") {
         console.log("You chose to convert to °C. Please type the temperature in °F:")
@@ -132,9 +147,10 @@ else if (userChosenTemp === "fahrenheit" || userChosenTemp === "f") {
 //conditionals if the user chooses celsius
 else if (userChosenTemp === "celsius" || userChosenTemp === "c" ) {
     console.log("You chose Celsius. Now chose which unit you would like to convert to (Fahrenheit or Kelvin):")
-    var usersCel
+    var usersCelConvertUnit
     usersCelConvertUnit = sbeve.input()
-    usersCelConvertUnit = usersCelConvertUnit.toLowerCase()
+
+     // SBEVE bruh what is this?
 
 
     //the conditional to convert from celsius to fahrenheit
