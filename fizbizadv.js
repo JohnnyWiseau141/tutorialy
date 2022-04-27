@@ -4,38 +4,38 @@ const sbeve = require('./sbeve.js')
 console.log("Time to pick a number and this dope af computer will fizzbuzz all the way to that number that YOU, the user, chose!")
 
 
-var i = 1
-var n
-n = sbeve.inputNumber()
+var initial = 1
+var userNumber
+userNumber = sbeve.inputNumber()
 
-while (i <= n) {
+while (initial <= userNumber) {
 
-  if (i % 3 == 0 && i % 5 == 0) {
+  if (initial % 3 == 0 && initial % 5 == 0) {
 
     console.log('Fizzbuzz')
 
   }
   else {
 
-    if (i % 3 == 0) {
+    if (initial % 3 == 0) {
 
       console.log('Fizz')
 
     }
     else {
 
-      if (i % 5 == 0) {
+      if (initial % 5 == 0) {
 
         console.log('Buzz')
 
       }
       else {
 
-        console.log(i)
+        console.log(initial)
 
       }
     }
   }
 
-  i = i + 1
+  initial = initial + 1
 }
