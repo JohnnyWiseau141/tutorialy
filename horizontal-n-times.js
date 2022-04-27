@@ -2,18 +2,25 @@ const sbeve = require('./sbeve.js')
 
 console.log("Type a string to be repeated")
 
-var chosenString = sbeve.input()
+var chosenString
+chosenString = sbeve.input()
+var evolvingString
+evolvingString = chosenString
 
-console.log("How many times would you like to repeat da Chosen String?")
+console.log("How many times would you like to repeat da chosen string?")
 
-var repeater = sbeve.inputNumber()
+var xTimes
+xTimes = sbeve.inputNumber()
 
-while (repeater > 0) {
+var counter
+counter = 1
 
-console.log(chosenString)
+while (counter < xTimes) {
 
-repeater = repeater - 1
+    counter = counter + 1
 
-chosenString = chosenString + chosenString
+    evolvingString = evolvingString + chosenString
+    
+}
 
-} 
+console.log (evolvingString)
