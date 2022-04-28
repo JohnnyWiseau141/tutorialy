@@ -24,39 +24,28 @@ var hollowPoint
 
 while (widthCount <= width) {
     
-
     mixDimension = mixDimension + squarePiece
 
     widthCount = widthCount + 1
 
-    if (widthCount > 1 && widthCount < width)
+    if (widthCount > 1 && widthCount < width){
 
     accumulatingSpace = accumulatingSpace + singleSpace
 
     hollowPoint = "*"+accumulatingSpace+"*" 
+    }
 }
 
 var heightCount = 1
 
-
-
 while (heightCount <= height) {
-
-
-    
 
     if (heightCount > 1 && heightCount < height) {
         
-        console.log(hollowPoint)
+        console.log(hollowPoint)   
 
-        
-
-    } else {
-    
-    
-
+    } else { 
     console.log(mixDimension) 
-}
-
+    }
     heightCount = heightCount + 1
 }
