@@ -1,4 +1,3 @@
-const { count } = require('console')
 const sbeve = require('./sbeve.js')
 
 console.log("Enter a number to count to:")
@@ -10,14 +9,14 @@ var counter
 counter = 1
 
 var 
-tester = counter
+evolvingNo = ""
 
-while (counter < daChosenNumero) {
+while (counter <= daChosenNumero) {
     
+    evolvingNo = evolvingNo + counter+" "
+
     counter = counter + 1
 
-    tester = tester.toString()+ counter.toString()
-    
 }
 
-console.log(tester)
+console.log(evolvingNo)
