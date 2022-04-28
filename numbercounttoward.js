@@ -6,8 +6,6 @@ var startingNumber = sbeve.inputNumber()
 
 var daChangingNumber
 
-daChangingNumber = startingNumber
-
 
 daChangingNumber = startingNumber - daChangingNumber +1
 

@@ -23,4 +23,4 @@ while (counter < xTimes) {
     
 }
 
-console.log (evolvingString)
+console.log(evolvingString)
