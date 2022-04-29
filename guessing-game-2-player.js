@@ -18,9 +18,9 @@ sbeve.input()
 
 var superSpace = 1
 while (superSpace < 100){
-console.log(" ")
-
-superSpace = superSpace + 1
+    console.log(" ")
+    
+    superSpace = superSpace + 1
 }
 
 console.log("Now guess a number from 1 to 100! I will tell you if your guess should be higher or lower.")

@@ -37,6 +37,8 @@ if (whyAreYouHere === "a" || whyAreYouHere ==="A" ) {
         console.log("Death Star!? That thing blew up Alderaan with Basil Oregano on it!")
     } else if (firstRealResponse === "c" || firstRealResponse === "C" ) {
         console.log("Grand Moff Tarkin is a gigantic poop bag. Goodbye.")
+    } else if (firstRealResponse === "e" || firstRealResponse === "E") {
+        console.log("PURPLE ISN'T EVEN A LOGICAL ANSWER YA PUNDA!")
     } else if (firstRealResponse === "d" || firstRealResponse === "D") {
         console.log("You picked the correct one! RedLetterMedia sure loves Rogue One! On to the next question.")
 
