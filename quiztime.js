@@ -32,9 +32,9 @@ while ( whyAreYouHere !== "d" && whyAreYouHere !== "D" ) {
 
 if (whyAreYouHere === "d" || whyAreYouHere === "D" ) {
     console.log("Well you came to the right place! Just answer the rest of the questions and you'll be a cool guy, just like the four cool guys who drank four cool drinks!")
-    console.log("You need to answering the questions correctly.")
+    console.log("You need to answer the questions correctly.")
     console.log("Failure will find you explainging why to a far less... patient audience.")
-    console.log("Meaning you fail, and you're kicked out like the RMV/DMV tests.")
+    console.log("Meaning you if you answer even one question incorrectly, you fail, and you're kicked out kinda like the RMV/DMV tests.")
     console.log("Answer them consecutively and correctly, please!")
     console.log("Now time for the first question, out of ten, for the quiz:")
 
@@ -69,7 +69,7 @@ if (whyAreYouHere === "d" || whyAreYouHere === "D" ) {
         console.log("D) Gen 1 and 2 Pokemon")
                 secondOfficialResponse = sbeve.input()
 
-        if (secondOfficialResponse === "b" || secondOfficialResponse === "b") {
+        if (secondOfficialResponse === "b" || secondOfficialResponse === "B") {
             console.log("Nintendo saved the gaming industry so I guess you are wrongo!")
         } else if (secondOfficialResponse === "c" || secondOfficialResponse === "C") {
             console.log("Opposable thumbs are actually super handy and it's a big reason why humans are dope")
@@ -133,7 +133,7 @@ if (whyAreYouHere === "d" || whyAreYouHere === "D" ) {
             } else if (fifthOfficialResponse === "c" || fifthOfficialResponse === "C") {
                 console.log("Not the MCU so afraid that ain't gonna fly roung here. Wrongo ping pong answer.")
             } else if (fifthOfficialResponse === "d" || fifthOfficialResponse === "D") {
-                console.log("Good answer! You win the")
+                console.log("Good answer! You win the question. Five more and you win the mile!")
 
                 console.log("More are coming. You've completed question five.")
                     
@@ -166,7 +166,7 @@ if (whyAreYouHere === "d" || whyAreYouHere === "D" ) {
 
             if (seventhOfficialResponse === "a" || seventhOfficialResponse === "A") {
                 console.log("You chose a really dope movie! Too bad it's the wrong answer. Sad!")
-            } else if (seventhOfficialResponse === "c" || seventhOfficialResponse === "c") {
+            } else if (seventhOfficialResponse === "c" || seventhOfficialResponse === "C") {
                 console.log("Congrats your office is liable for murder. That makes you A GIGANTIC PUNDA BUBU.")
             } else if (seventhOfficialResponse === "d" || seventhOfficialResponse === "D") {
                 console.log("WHAT YOU SAY?! Your iq is clearly schfifty five if you think that's a numero.")
