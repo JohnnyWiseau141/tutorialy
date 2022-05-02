@@ -19,5 +19,3 @@ if (firstInput === 'done') {
         }
         print("You typed "+accumulatingCount+" characters in total!")
 }
-
-
