@@ -6,7 +6,7 @@ function die (msg) {
 }
 
 function input () {
-  fs.writeSync(1, '\u001b[4m');
+  fs.writeSync(1, '\u001b[4m \b');
   let s = '';
   const b = Buffer.from([0]);
   while (true) {
@@ -32,8 +32,22 @@ function inputNumber () {
   return f;
 }
 
+function print (...args) {
+  if (args.length === 0) {
+    die("Missing argument to print(), ya punda!")
+  }
+  else if (args.length > 1) {
+    die("No commas, ya punda!")
+  }
+
+  console.log(args[0])
+}
+
 module.exports = {
   die,
   input,
   inputNumber,
+  print,
 };
+
+Object.assign(global, module.exports);
