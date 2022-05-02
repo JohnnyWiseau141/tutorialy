@@ -6,5 +6,3 @@ var userTypes
 userTypes = input()
 
 print("You typed "+ userTypes.length +" characters!")
-
-
