@@ -9,9 +9,15 @@ var firstInput = input()
 accumulatingCount = firstInput.length
 
 
-while (moreInput !== 'done') {
-    accumulatingCount += moreInput.length
-    moreInput = input()
+if (firstInput === 'done') {
+    print("You typed "+moreInput.length+" characters in total!")
+} else {
+
+    while (moreInput !== 'done') {
+        accumulatingCount += moreInput.length
+        moreInput = input()
+        }
+        print("You typed "+accumulatingCount+" characters in total!")
 }
 
-print("You typed "+accumulatingCount+" characters in total!")
+
