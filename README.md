@@ -38,3 +38,7 @@ Eg, 1,2,3,4,5,6,7 keeps going ETC…
 3. quiz for awesome people
 4. text adventure game
 5. in temperature conversion, make a loop so it keeps prompting user to put in correct input. do not shut down after bruh moments
+
+# 5-3-22 notes:
+
+1. Fix the indentation after completing the quizzes on Heroku.
