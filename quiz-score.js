@@ -1,7 +1,7 @@
 const sbeve = require('./sbeve.js')
 
 print("So you think you're a cool guy, eh? Well this sure ain't Strong Bad's stick, but it's something better. A quiz to guage your coolness!")
-// MAKE SURE TO REMOVE WHILE LOOPS
+
 var offiScore = 0
 var unOffiScore = 0
 
