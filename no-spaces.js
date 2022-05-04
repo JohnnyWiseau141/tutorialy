@@ -4,7 +4,7 @@ print("Type something and I will remove the spaces CAUSE HE GOOD!")
 
 var inPutBag = input()
 
-strNoSpaced = ""
+var strNoSpaced = ""
 
 var dumCounter = 0
 

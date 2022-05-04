@@ -1,0 +1,20 @@
+//for loops are very identical to certain while loops!
+
+
+for ( var i = 0 ; i < 10 ; i += 1) {
+
+  print(i)
+
+}
+
+// it's the same thing mike! it's the same thing
+
+var i = 0
+
+while ( i < 10 ) {
+
+  print(i)
+
+  i += 1
+
+}
