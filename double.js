@@ -17,4 +17,4 @@ for (var countey = 0 ;countey < inputInHell.length; countey += 1 ) {
     
 }
 
-print("Your swapped string is: "+replaceDaStringyDingy)
+print("Your \"doubled\" string is: "+replaceDaStringyDingy)
