@@ -10,7 +10,7 @@ if ( usersChosenElement === "h"
     || usersChosenElement ==="H"
     || usersChosenElement === "Hydrogen") {
 
-    var H = 1.0078
+    var h = 1.0078
 
     print("Hydrogen has an atomic mass of "+H)
 
@@ -19,7 +19,7 @@ if ( usersChosenElement === "h"
     || usersChosenElement ==="He"
     || usersChosenElement === "Helium") {
     
-    var He = 4.0026
+    var he = 4.0026
 
     print("Helium has an atomic mass of "+He)
 
@@ -28,7 +28,7 @@ if ( usersChosenElement === "h"
     || usersChosenElement ==="Li"
     || usersChosenElement === "Lithium") {
 
-    var Li = 6.938
+    var li = 6.938
 
     print("Helium (He) has an atomic mass of "+Li)
 
@@ -37,83 +37,83 @@ if ( usersChosenElement === "h"
     || usersChosenElement ==="Be"
     || usersChosenElement === "Beryllium") {
 
-    var Be = 9.0122
+    var be = 9.0122
 
     print("Beryllium (Be) has an atomic mass of "+Be)
-//left off at Beryllium
-} else if (usersChosenElement === "li" 
-    || usersChosenElement === "lithium"
-    || usersChosenElement ==="Li"
-    || usersChosenElement === "Litium") {
+//left off at Beryllium picking up 5-6-2022
+} else if (usersChosenElement === "B" 
+    || usersChosenElement === "Boron"
+    || usersChosenElement ==="b"
+    || usersChosenElement === "boron") {
     
-    var Li = 6.938
+    var b = 10.806
     
-    print("Helium has an atomic mass of "+He)
+    print("Boron has an atomic mass of "+b)
     
-} else if (usersChosenElement === "li" 
-    || usersChosenElement === "lithium"
-    || usersChosenElement ==="Li"
-    || usersChosenElement === "Litium") {
+} else if (usersChosenElement === "C" 
+    || usersChosenElement === "carbon"
+    || usersChosenElement ==="C"
+    || usersChosenElement === "Carbon") {
     
-    var Li = 6.938
+    var c = 12.009
     
-    print("Helium has an atomic mass of "+He)
+    print("Carbon has an atomic mass of "+c)
     
-} else if (usersChosenElement === "li" 
-    || usersChosenElement === "lithium"
-    || usersChosenElement ==="Li"
-    || usersChosenElement === "Litium") {
+} else if (usersChosenElement === "N" 
+    || usersChosenElement === "n"
+    || usersChosenElement ==="Nitrogen"
+    || usersChosenElement === "nitrogen") {
     
-    var Li = 6.938
+    var n = 6.938
     
-    print("Helium has an atomic mass of "+He)
+    print("Nitrogen has an atomic mass of "+n)
     
-} else if (usersChosenElement === "li" 
-    || usersChosenElement === "lithium"
-    || usersChosenElement ==="Li"
-    || usersChosenElement === "Litium") {
+} else if (usersChosenElement === "O" 
+    || usersChosenElement === "o"
+    || usersChosenElement ==="Oxygen"
+    || usersChosenElement === "oxygen") {
     
-    var Li = 6.938
+    var o = 15.999
     
-    print("Helium has an atomic mass of "+He)
+    print("Oxygen has an atomic mass of "+o)
     
-} else if (usersChosenElement === "li" 
-    || usersChosenElement === "lithium"
-    || usersChosenElement ==="Li"
-    || usersChosenElement === "Litium") {
+} else if (usersChosenElement === "F" 
+    || usersChosenElement === "f"
+    || usersChosenElement ==="Flourine"
+    || usersChosenElement === "flourine") {
     
-    var Li = 6.938
+    var f = 18.998
     
-    print("Helium has an atomic mass of "+He)
+    print("Flourine has an atomic mass of "+f)
+    // leaving off at flourine for a bit coming back for a few more at 3:20 on 5-6-22
+} else if (usersChosenElement === "Ne" 
+    || usersChosenElement === "Neon"
+    || usersChosenElement ==="ne"
+    || usersChosenElement === "neon") {
     
-} else if (usersChosenElement === "li" 
-    || usersChosenElement === "lithium"
-    || usersChosenElement ==="Li"
-    || usersChosenElement === "Litium") {
+    var ne = 20.180
     
-    var Li = 6.938
-    
-    print("Helium has an atomic mass of "+He)
+    print("Neon has an atomic mass of "+ne)
     
 } 
-else if (usersChosenElement === "li" 
-    || usersChosenElement === "lithium"
-    || usersChosenElement ==="Li"
-    || usersChosenElement === "Litium") {
+else if (usersChosenElement === "Na" 
+    || usersChosenElement === "sodium"
+    || usersChosenElement ==="na"
+    || usersChosenElement === "sodium") {
     
-    var Li = 6.938
+    var na = 22.990
     
-    print("Helium has an atomic mass of "+He)
+    print("Sodium has an atomic mass of "+na)
     
-} else if (usersChosenElement === "li" 
-    || usersChosenElement === "lithium"
-    || usersChosenElement ==="Li"
-    || usersChosenElement === "Litium") {
+} else if (usersChosenElement === "Mg" 
+    || usersChosenElement === "Magnesium"
+    || usersChosenElement ==="mg"
+    || usersChosenElement === "magnesium") {
     
-    var Li = 6.938
+    var mg = 24.305
     
-    print("Helium has an atomic mass of "+He)
-    
+    print("Magnesium has an atomic mass of "+mg)
+    //leaving off here at magnesium on 5-6-22 at 3:47pm
 } else if (usersChosenElement === "li" 
     || usersChosenElement === "lithium"
     || usersChosenElement ==="Li"
