@@ -26,11 +26,11 @@ if ( usersChosenElement === "h"
 } else if (usersChosenElement === "li" 
     || usersChosenElement === "lithium"
     || usersChosenElement ==="Li"
-    || usersChosenElement === "Litium") {
+    || usersChosenElement === "Lithium") {
 
     var Li = 6.938
 
-    print("Helium has an atomic mass of "+Li)
+    print("Helium (He) has an atomic mass of "+Li)
 
 } else if (usersChosenElement === "be" 
     || usersChosenElement === "beryllium"
@@ -39,7 +39,7 @@ if ( usersChosenElement === "h"
 
     var Be = 9.0122
 
-    print("Helium has an atomic mass of "+Be)
+    print("Beryllium (Be) has an atomic mass of "+Be)
 //left off at Beryllium
 } else if (usersChosenElement === "li" 
     || usersChosenElement === "lithium"
