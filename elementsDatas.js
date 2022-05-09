@@ -113,34 +113,34 @@ else if (usersChosenElement === "Na"
     var mg = 24.305
     
     print("Magnesium has an atomic mass of "+mg)
-    //leaving off here at magnesium on 5-6-22 at 3:47pm
-} else if (usersChosenElement === "li" 
-    || usersChosenElement === "lithium"
-    || usersChosenElement ==="Li"
-    || usersChosenElement === "Litium") {
     
-    var Li = 6.938
+} else if (usersChosenElement === "al" 
+    || usersChosenElement === "aluminum"
+    || usersChosenElement ==="Al"
+    || usersChosenElement === "Aluminum") {
     
-    print("Helium has an atomic mass of "+He)
+    var al = 26.982
     
-} else if (usersChosenElement === "li" 
-    || usersChosenElement === "lithium"
-    || usersChosenElement ==="Li"
-    || usersChosenElement === "Litium") {
+    print("Aluminmum has an atomic mass of "+al)
     
-    var Li = 6.938
+} else if (usersChosenElement === "si" 
+    || usersChosenElement === "silicon"
+    || usersChosenElement === "Si"
+    || usersChosenElement === "Silicon") {
     
-    print("Helium has an atomic mass of "+He)
+    var si = 28.084
     
-} else if (usersChosenElement === "li" 
-    || usersChosenElement === "lithium"
-    || usersChosenElement ==="Li"
-    || usersChosenElement === "Litium") {
+    print("Silicon has an atomic mass of "+si)
     
-    var Li = 6.938
+} else if (usersChosenElement === "p" 
+    || usersChosenElement === "phosphorus"
+    || usersChosenElement ==="P"
+    || usersChosenElement === "Phosphorus") {
     
-    print("Helium has an atomic mass of "+He)
+    var p = 30.974
     
+    print("Helium has an atomic mass of "+p)
+        //left off at phosphorus at 10-57am at 5-9-22
 } else if (usersChosenElement === "li" 
     || usersChosenElement === "lithium"
     || usersChosenElement ==="Li"
