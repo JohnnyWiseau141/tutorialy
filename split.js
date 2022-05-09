@@ -6,6 +6,8 @@ var daInput = input()
 
 var growyStrings = ""
 
+print("Here are the substrings:")
+
 for (var index = 0; index < daInput.length; index += 1) {
 
     if (daInput[index] === ",") {
