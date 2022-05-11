@@ -45,42 +45,50 @@ if (
                 firstMaths = 8
             } else if (numeroInputo[0] === "9") {
                 firstMaths = 9
-            }  
+            }   else {
+                numeroInputo[0] = firstMaths
+                print(secondMaths+" is not a numero ya chungus!")
+                break
+        }
         
         if (numeroInputo[2] === "0") {
             secondMaths = 0
-        } else if (numeroInputo[0] === "1") {
-            secondMaths = 1
-        } else if (numeroInputo[0] === "2") {
-            secondMaths = 2
-        } else if (numeroInputo[0] === "3") {
-            secondMaths = 3
-        } else if (numeroInputo[0] === "4") {
-            secondMaths = 4
-        } else if (numeroInputo[0] === "5") {
-            secondMaths = 5
-        } else if (numeroInputo[0] === "6") {
-            secondMaths = 6
-        } else if (numeroInputo[0] === "7") {
-            secondMaths = 7
-        } else if (numeroInputo[0] === "8") {
-            secondMaths = 8
-        } else if (numeroInputo[0] === "9") {
-            secondMaths = 9
-        }               
+            } else if (numeroInputo[2] === "1") {
+                secondMaths = 1
+            } else if (numeroInputo[2] === "2") {
+                secondMaths = 2
+            } else if (numeroInputo[2] === "3") {
+                secondMaths = 3
+            } else if (numeroInputo[2] === "4") {
+                secondMaths = 4
+            } else if (numeroInputo[2] === "5") {
+                secondMaths = 5
+            } else if (numeroInputo[2] === "6") {
+                secondMaths = 6
+            } else if (numeroInputo[2] === "7") {
+                secondMaths = 7
+            } else if (numeroInputo[2] === "8") {
+                secondMaths = 8
+            } else if (numeroInputo[2] === "9") {
+                secondMaths = 9
+            } else {
+                numeroInputo[0] = firstMaths
+                print(secondMaths+" is not a numero ya chungus!")
+                break
+        }              
 
         if (numeroInputo[1] === "+") {
-            dumSymbol = numeroInputo[1]
-            finalMaths = firstMaths+secondMaths
-        } else if (numeroInputo[1] === "-") {
-            dumSymbol = numeroInputo[1]
-            finalMaths = firstMaths-secondMaths
-        } else if (numeroInputo[1] === "*") {
-            dumSymbol = numeroInputo[1]
-            finalMaths = firstMaths*secondMaths
-        } else if (numeroInputo[1] === "/") {
-            dumSymbol = numeroInputo[1]
-            finalMaths = firstMaths/secondMaths
+                dumSymbol = numeroInputo[1]
+                finalMaths = firstMaths+secondMaths
+            } else if (numeroInputo[1] === "-") {
+                dumSymbol = numeroInputo[1]
+                finalMaths = firstMaths-secondMaths
+            } else if (numeroInputo[1] === "*") {
+                dumSymbol = numeroInputo[1]
+                finalMaths = firstMaths*secondMaths
+            } else if (numeroInputo[1] === "/") {
+                dumSymbol = numeroInputo[1]
+                finalMaths = firstMaths/secondMaths
         }
      
     }
