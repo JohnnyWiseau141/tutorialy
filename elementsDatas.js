@@ -240,15 +240,15 @@ else if (usersChosenElement === "Na"
     
     print("Iron has an atomic mass of "+fe)
     //leaving off at iron 4pm 5-11-22
-} else if (usersChosenElement === "li" 
-    || usersChosenElement === "lithium"
-    || usersChosenElement ==="Li"
-    || usersChosenElement === "Litium") {
+} else if (usersChosenElement === "co" 
+    || usersChosenElement === "cobalt"
+    || usersChosenElement ==="Co"
+    || usersChosenElement === "Cobalt") {
     
-    var Li = 6.938
+    var co = 58.933
     
-    print("Helium has an atomic mass of "+He)
-    
+    print("Cobalt has an atomic mass of "+co)
+    // leaving off at cobalt on 5-12-22 in da morning
 } else if (usersChosenElement === "li" 
     || usersChosenElement === "lithium"
     || usersChosenElement ==="Li"
