@@ -5,10 +5,13 @@ print("Enter an element and I shall tell you it's atomic mass!")
 
 var usersChosenElement = input()
 
+usersChosenElement = usersChosenElement.toLowerCase()
+
+print(usersChosenElement)
+
 if ( usersChosenElement === "h" 
     || usersChosenElement === "hydrogen"
-    || usersChosenElement ==="H"
-    || usersChosenElement === "Hydrogen") {
+    ) {
 
     var h = 1.0078
 
@@ -16,8 +19,7 @@ if ( usersChosenElement === "h"
 
 } else if (usersChosenElement === "he" 
     || usersChosenElement === "helium"
-    || usersChosenElement ==="He"
-    || usersChosenElement === "Helium") {
+    ) {
     
     var he = 4.0026
 
@@ -70,8 +72,7 @@ if ( usersChosenElement === "h"
     
 } else if (usersChosenElement === "O" 
     || usersChosenElement === "o"
-    || usersChosenElement ==="Oxygen"
-    || usersChosenElement === "oxygen") {
+    ) {
     
     var o = 15.999
     
@@ -79,8 +80,7 @@ if ( usersChosenElement === "h"
     
 } else if (usersChosenElement === "F" 
     || usersChosenElement === "f"
-    || usersChosenElement ==="Flourine"
-    || usersChosenElement === "flourine") {
+    ) {
     
     var f = 18.998
     
@@ -88,8 +88,7 @@ if ( usersChosenElement === "h"
     // leaving off at flourine for a bit coming back for a few more at 3:20 on 5-6-22
 } else if (usersChosenElement === "Ne" 
     || usersChosenElement === "Neon"
-    || usersChosenElement ==="ne"
-    || usersChosenElement === "neon") {
+    ) {
     
     var ne = 20.180
     
@@ -98,8 +97,7 @@ if ( usersChosenElement === "h"
 } 
 else if (usersChosenElement === "Na" 
     || usersChosenElement === "sodium"
-    || usersChosenElement ==="na"
-    || usersChosenElement === "sodium") {
+    ) {
     
     var na = 22.990
     
@@ -107,8 +105,7 @@ else if (usersChosenElement === "Na"
     
 } else if (usersChosenElement === "Mg" 
     || usersChosenElement === "Magnesium"
-    || usersChosenElement ==="mg"
-    || usersChosenElement === "magnesium") {
+    ) {
     
     var mg = 24.305
     
@@ -116,8 +113,7 @@ else if (usersChosenElement === "Na"
     
 } else if (usersChosenElement === "al" 
     || usersChosenElement === "aluminum"
-    || usersChosenElement ==="Al"
-    || usersChosenElement === "Aluminum") {
+    ) {
     
     var al = 26.982
     
@@ -125,8 +121,7 @@ else if (usersChosenElement === "Na"
     
 } else if (usersChosenElement === "si" 
     || usersChosenElement === "silicon"
-    || usersChosenElement === "Si"
-    || usersChosenElement === "Silicon") {
+    ) {
     
     var si = 28.084
     
@@ -134,8 +129,7 @@ else if (usersChosenElement === "Na"
     
 } else if (usersChosenElement === "p" 
     || usersChosenElement === "phosphorus"
-    || usersChosenElement ==="P"
-    || usersChosenElement === "Phosphorus") {
+    ) {
     
     var p = 30.974
     
@@ -143,8 +137,7 @@ else if (usersChosenElement === "Na"
         //left off at phosphorus at 10-57am at 5-9-22
 } else if (usersChosenElement === "s" 
     || usersChosenElement === "sulfur"
-    || usersChosenElement ==="S"
-    || usersChosenElement === "Sulfur") {
+    ) {
     
     var s = 32.059
     
@@ -152,8 +145,7 @@ else if (usersChosenElement === "Na"
     
 } else if (usersChosenElement === "cl" 
     || usersChosenElement === "chlorine"
-    || usersChosenElement ==="Cl"
-    || usersChosenElement === "Chroline") {
+    ) {
     
     var cl = 35.446
     
@@ -161,8 +153,7 @@ else if (usersChosenElement === "Na"
     
 } else if (usersChosenElement === "ar" 
     || usersChosenElement === "argon"
-    || usersChosenElement ==="Ar"
-    || usersChosenElement === "Argon") {
+    ) {
     
     var ar = 39.948
     
@@ -170,8 +161,7 @@ else if (usersChosenElement === "Na"
     
 } else if (usersChosenElement === "k" 
     || usersChosenElement === "potassium"
-    || usersChosenElement ==="K"
-    || usersChosenElement === "Potassium") {
+    ) {
     
     var k = 39.098
     
@@ -179,8 +169,7 @@ else if (usersChosenElement === "Na"
     
 } else if (usersChosenElement === "ca" 
     || usersChosenElement === "calcium"
-    || usersChosenElement ==="Ca"
-    || usersChosenElement === "Calcium") {
+    ) {
     
     var ca = 40.078
     
@@ -188,8 +177,7 @@ else if (usersChosenElement === "Na"
     
 } else if (usersChosenElement === "sc" 
     || usersChosenElement === "scandium"
-    || usersChosenElement ==="Sc"
-    || usersChosenElement === "Scandium") {
+    ) {
     
     var sc = 44.956
     
@@ -197,8 +185,7 @@ else if (usersChosenElement === "Na"
     
 } else if (usersChosenElement === "ti" 
     || usersChosenElement === "titanium"
-    || usersChosenElement ==="Ti"
-    || usersChosenElement === "Titanium") {
+    ) {
     
     var ti = 47.867
     
@@ -206,8 +193,7 @@ else if (usersChosenElement === "Na"
     
 } else if (usersChosenElement === "v" 
     || usersChosenElement === "vanadium"
-    || usersChosenElement ==="V"
-    || usersChosenElement === "Vanadium") {
+    ) {
     
     var v = 50.942
     
@@ -215,8 +201,7 @@ else if (usersChosenElement === "Na"
 
 } else if (usersChosenElement === "cr" 
     || usersChosenElement === "chromium"
-    || usersChosenElement ==="Cr"
-    || usersChosenElement === "Chromium") {
+    ) {
     
     var cr = 51.996
     
@@ -224,8 +209,7 @@ else if (usersChosenElement === "Na"
     
 } else if (usersChosenElement === "mn" 
     || usersChosenElement === "manganese"
-    || usersChosenElement ==="Mn"
-    || usersChosenElement === "Manganese") {
+    ) {
     
     var mn = 54.958
     
@@ -233,8 +217,7 @@ else if (usersChosenElement === "Na"
     
 } else if (usersChosenElement === "fe" 
     || usersChosenElement === "iron"
-    || usersChosenElement ==="Fe"
-    || usersChosenElement === "Iron") {
+    ) {
     
     var fe = 55.845
     
@@ -242,94 +225,81 @@ else if (usersChosenElement === "Na"
     //leaving off at iron 4pm 5-11-22
 } else if (usersChosenElement === "co" 
     || usersChosenElement === "cobalt"
-    || usersChosenElement ==="Co"
-    || usersChosenElement === "Cobalt") {
+    ) {
     
     var co = 58.933
     
     print("Cobalt has an atomic mass of "+co)
-    // leaving off at cobalt on 5-12-22 in da morning
-} else if (usersChosenElement === "li" 
-    || usersChosenElement === "lithium"
-    || usersChosenElement ==="Li"
-    || usersChosenElement === "Litium") {
+
+} else if (usersChosenElement === "ni" 
+    || usersChosenElement === "nickel"
+    ) {
     
-    var Li = 6.938
+    var ni = 58.693
     
-    print("Helium has an atomic mass of "+He)
+    print("Nickel has an atomic mass of "+ni)
     
-} else if (usersChosenElement === "li" 
-    || usersChosenElement === "lithium"
-    || usersChosenElement ==="Li"
-    || usersChosenElement === "Litium") {
+} else if (usersChosenElement === "cu" 
+    || usersChosenElement === "copper"
+    ) {
     
-    var Li = 6.938
+    var cu = 63.546
     
-    print("Helium has an atomic mass of "+He)
+    print("Copper has an atomic mass of "+cu)
     
-} else if (usersChosenElement === "li" 
-    || usersChosenElement === "lithium"
-    || usersChosenElement ==="Li"
-    || usersChosenElement === "Litium") {
+} else if (usersChosenElement === "zn" 
+    || usersChosenElement === "zinc"
+    ) {
     
-    var Li = 6.938
+    var zn = 65.38
     
-    print("Helium has an atomic mass of "+He)
+    print("Zinc has an atomic mass of "+zn)
     
-} else if (usersChosenElement === "li" 
-    || usersChosenElement === "lithium"
-    || usersChosenElement ==="Li"
-    || usersChosenElement === "Litium") {
+} else if (usersChosenElement === "ga" 
+        || usersChosenElement === "gallium") {
     
-    var Li = 6.938
+    var ga = 69.723
     
-    print("Helium has an atomic mass of "+He)
+    print("Gallium has an atomic mass of "+ga)
     
-} else if (usersChosenElement === "li" 
-    || usersChosenElement === "lithium"
-    || usersChosenElement ==="Li"
-    || usersChosenElement === "Litium") {
+} else if (usersChosenElement === "ge" 
+    || usersChosenElement === "germanium") {
     
-    var Li = 6.938
+    var ge = 72.63
     
-    print("Helium has an atomic mass of "+He)
+    print("Gernmanium has an atomic mass of "+ge)
     
-} else if (usersChosenElement === "li" 
-    || usersChosenElement === "lithium"
-    || usersChosenElement ==="Li"
-    || usersChosenElement === "Litium") {
+} else if (usersChosenElement === "as" 
+    || usersChosenElement === "arsenic") {
     
-    var Li = 6.938
+    var as = arsenic
     
-    print("Helium has an atomic mass of "+He)
+    print("Arsenic has an atomic mass of "+as)
     
-} else if (usersChosenElement === "li" 
-    || usersChosenElement === "lithium"
-    || usersChosenElement ==="Li"
-    || usersChosenElement === "Litium") {
+} else if (usersChosenElement === "se" 
+    || usersChosenElement === "selenium"
+    ) {
     
-    var Li = 6.938
+    var se = 78.96
     
-    print("Helium has an atomic mass of "+He)
+    print("Selenium has an atomic mass of "+se)
     
-} else if (usersChosenElement === "li" 
-    || usersChosenElement === "lithium"
-    || usersChosenElement ==="Li"
-    || usersChosenElement === "Litium") {
+} else if (usersChosenElement === "br" 
+    || usersChosenElement === "bromine"
+    ) {
     
-    var Li = 6.938
+    var br = 79.904
     
-    print("Helium has an atomic mass of "+He)
+    print("Bromine has an atomic mass of "+br)
     
-} else if (usersChosenElement === "li" 
-    || usersChosenElement === "lithium"
-    || usersChosenElement ==="Li"
-    || usersChosenElement === "Litium") {
+} else if (usersChosenElement === "kr" 
+    || usersChosenElement === "krypton"
+    ) {
     
-    var Li = 6.938
+    var kr = 83.798
     
-    print("Helium has an atomic mass of "+He)
-    
+    print("Krypton has an atomic mass of "+kr)
+    //commit at krypton 2:26pm - 5-12-22
 } else if (usersChosenElement === "li" 
     || usersChosenElement === "lithium"
     || usersChosenElement ==="Li"
