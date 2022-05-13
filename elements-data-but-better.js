@@ -2,7 +2,7 @@ const sbeve = require('./sbeve.js')
 
 var elements = [
     ['hydrogen', 1.0078, 'h' ],
-    ['oxygen', 15.999, 'o',]
+    ['oxygen', 15.999, 'o',],
     ['carbon', 12.009, 'c'],
     ['nitrogen', 14.004, 'n'],
 ]
