@@ -16,3 +16,6 @@ for (var index = 0; index < daInput.length; index += 1 ) {
 
 }
 
+if (!isThereA) {
+    print("You didn't type 'a' ya fool!")
+}

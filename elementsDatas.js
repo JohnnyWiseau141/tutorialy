@@ -299,51 +299,46 @@ else if (usersChosenElement === "Na"
     var kr = 83.798
     
     print("Krypton has an atomic mass of "+kr)
-    //commit at krypton 2:26pm - 5-12-22
-} else if (usersChosenElement === "li" 
-    || usersChosenElement === "lithium"
-    || usersChosenElement ==="Li"
-    || usersChosenElement === "Litium") {
     
-    var Li = 6.938
+} else if (usersChosenElement === "rb" 
+    || usersChosenElement === "rubidium"
+    ) {
     
-    print("Helium has an atomic mass of "+He)
+    var rb = 85.456
     
-} else if (usersChosenElement === "li" 
-    || usersChosenElement === "lithium"
-    || usersChosenElement ==="Li"
-    || usersChosenElement === "Litium") {
+    print("Rubidium has an atomic mass of "+rb)
     
-    var Li = 6.938
+} else if (usersChosenElement === "sr" 
+    || usersChosenElement === "strontium"
+    ) {
     
-    print("Helium has an atomic mass of "+He)
+    var sr = 87.62
     
-} else if (usersChosenElement === "li" 
-    || usersChosenElement === "lithium"
-    || usersChosenElement ==="Li"
-    || usersChosenElement === "Litium") {
+    print("Strontium has an atomic mass of "+sr)
     
-    var Li = 6.938
+} else if (usersChosenElement === "y" 
+    || usersChosenElement === "yttrium"
+    ) {
     
-    print("Helium has an atomic mass of "+He)
+    var y = yttrium
     
-} else if (usersChosenElement === "li" 
-    || usersChosenElement === "lithium"
-    || usersChosenElement ==="Li"
-    || usersChosenElement === "Litium") {
+    print("Yttrium has an atomic mass of "+y)
     
-    var Li = 6.938
+} else if (usersChosenElement === "zr" 
+    || usersChosenElement === "zirconium"
+    ) {
     
-    print("Helium has an atomic mass of "+He)
+    var zr = 91.224
     
-} else if (usersChosenElement === "li" 
-    || usersChosenElement === "lithium"
-    || usersChosenElement ==="Li"
-    || usersChosenElement === "Litium") {
+    print("Zirconium has an atomic mass of "+zr)
     
-    var Li = 6.938
+} else if (usersChosenElement === "nb" 
+    || usersChosenElement === "niobium"
+    ) {
     
-    print("Helium has an atomic mass of "+He)
+    var nb = 92.906
+    
+    print("niobium has an atomic mass of "+nb)
     
 } else if (usersChosenElement === "li" 
     || usersChosenElement === "lithium"
