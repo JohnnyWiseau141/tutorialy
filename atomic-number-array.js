@@ -28,7 +28,7 @@
  ['nickel', 58.693, 'ni'], 
  ['copper', 63.546, 'cu'], 
  ['zinc', 63.38, 'zn'], 
- ['gallium', 69.723, ''], 
+ ['gallium', 69.723, 'ga'], 
  ['germanium', 72.640, 'ge'], 
  ['arsenic', 74.922, 'as'], 
  ['selenium', 78.960, 'se'], 
