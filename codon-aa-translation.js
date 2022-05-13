@@ -1,21 +1,23 @@
-const sbeve = require('../sbeve.js')
+const sbeve = require('./sbeve.js')
 
-var codons = require('./codons.js')
+var codons = require('./codon-aa-array.js')
 
-print("Enter an amino acid, START, or STOP and I will tell you it's three-letter mRNA codon!")
+print("Enter an amino acid, START, or STOP and I will tell you it's three-letter mRNA codon, or codons!")
 
 var aminoAcidInput = input()
+    aminoAcidInput = aminoAcidInput.toLowerCase()
 
 var goodInput
 
 for (var index = 0; index < codons.length; index+=1) {
-    
+    goodInput = true
     //Conditional for stop
-    if (aminoAcidInput === "STOP" && aminoAcidInput === codons[index][0] ) {
+    if (aminoAcidInput === "stop" && aminoAcidInput === codons[index][0] ) {
         print("Stop codons are "+codons[index][1]+", "+codons[index][2]+", and "+codons[index][3])
+        goodInput = true
         break
     //conditional for start and methionine which is also a start codon
-     } else if ( aminoAcidInput === "START" 
+     } else if ( aminoAcidInput === "start" 
                 && index === 1
                 ||aminoAcidInput === "methionine" 
                 && aminoAcidInput === codons[index][0] 
@@ -24,6 +26,15 @@ for (var index = 0; index < codons.length; index+=1) {
         print("That's "+codons[index][0]+", which is also a START codon made of "+codons[index][2])
         break
     // normal ish conditionals finally
+    } else if (codons[index].length === 3 
+                && codons[index][0] !== "methionine" 
+                && aminoAcidInput === codons[index][0]
+                || aminoAcidInput === codons[index][1]
+                && codons[index].length === 3 
+                && codons[index][1] !== "met") {    
+                
+        print("You entered "+codons[index][0]+" which is abbreviated as " +codons[index][1]+ " and made up of codon "+codons[index][2])
+        break
     } else if (codons[index].length === 4 
                 && codons[index][0] !== "STOP" 
                 && aminoAcidInput === codons[index][0]
@@ -53,5 +64,10 @@ for (var index = 0; index < codons.length; index+=1) {
             break
     } else {
         goodInput = false
+        
     }
+}
+
+if (!goodInput) {
+    print("Shoulda entered a valid AA or simple STOP or START string. Woe is you.")
 }
