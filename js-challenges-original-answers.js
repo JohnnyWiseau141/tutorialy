@@ -103,7 +103,7 @@ function sumNumbers(arr) {
 // add(1,50,1.23) //=> 52.23
 // add(7,-12) //=> -5
 
-// my awesome code that kinda works but the code challenge program wanted me to use arguments variable
+// my awesome code that is super undefined so i had to learn the code challenge program wanted me to use arguments variable and then docs time
 // function addList() {
 
 //   goneToTheLake = 0
@@ -118,7 +118,7 @@ function sumNumbers(arr) {
 //     return goneToTheLake
 // }
 
-// the code i had to modify and cheat for that gets a perfect score but does DA SAME THING
+// the code i had to modify and cheat for that gets a perfect score because the arguments object is a thing
 function addList() {
 
   let daSum = 0
