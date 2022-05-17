@@ -1,7 +1,7 @@
 module.exports = [ 
 
-    ["stop", "UAA", "UAG", "UGA"],
-    ["methionine","met", "AUG" ],
+    ["stop", "UAA", "UAG", "UGA"], // length of 4
+    ["methionine","met", "AUG" ], // length of 3
     ["phenylalanine","phe","UUU","UUC"], // length of 4
     ["isoleucine","ile","AUU","AUC","AUA"], // length of 5
     ["proline", "pro","CCU","CCC","CCA","CCG"], // length of 6
