@@ -20,12 +20,10 @@ function matchesCodons (aaInput, aa) {
 }
 
 print("Enter an amino acid, START, or STOP and I will tell you it's three-letter mRNA codon, or codons!")
-print("NOTE: 'start' and 'stop' don't work yet.")
+print("NOTE: 'start' and 'stop' SHOULD work now but report BUGS")
 
 var aminoAcidInput = input().toLowerCase()
 
-
-//var stop = ["UAA", "UAG", "UGA"]
 
 var found = false;
 
@@ -46,8 +44,7 @@ for (var index = 0; index < codons.length; index += 1) {
     print("This is also a start codon. Every single sequence always starts with this amino acid!")
     found = true;
     break;
-  }
-  if (aminoAcidInput === name || aminoAcidInput === abbrev || matchesCodons(aminoAcidInput, aa)) {
+  } else if (aminoAcidInput === name || aminoAcidInput === abbrev || matchesCodons(aminoAcidInput, aa)) {
     print("Amino acid: " + name);
     print("Abbreviation: " + abbrev);
     printCodons(aa);
