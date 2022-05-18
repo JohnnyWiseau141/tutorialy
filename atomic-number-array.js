@@ -1,4 +1,6 @@
-[ ['hydrogen', 1.0078, 'h'],
+module.exports = [
+
+ ['hydrogen', 1.0078, 'h'],
  ['helium', 4.0026, 'he'],
  ['lithium', 6.938, 'li'],
  ['beryllium', 9.0122, 'be'],
@@ -116,4 +118,5 @@
  ['livermorium', 293.205, 'lv'], 
  ['tennessine', 294.211, 'ts'], 
  ['oganesson', 295.216, 'og']
+ 
 ]
