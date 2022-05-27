@@ -42,3 +42,15 @@ Eg, 1,2,3,4,5,6,7 keeps going ETC…
 # 5-3-22 notes:
 
 1. Fix the indentation after completing the quizzes on Heroku.
+
+# 5-27-22 notes and self-assignments:
+
+1. Create wireframe and trilla board for biotech formula/periodic table website
+
+2. progress in js challenges
+
+3. codecademy progress
+
+4. begin hackerrank
+
+5. begin again to refocus on application process
