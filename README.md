@@ -45,12 +45,12 @@ Eg, 1,2,3,4,5,6,7 keeps going ETC…
 
 # 5-27-22 notes and self-assignments:
 
-1. Create wireframe and trilla board for biotech formula/periodic table website
+1. Create wireframe and trello board for biotech formula/periodic table website
 
 2. progress in js challenges
 
 3. codecademy progress
 
-4. begin hackerrank
+4. begin hackerran
 
 5. begin again to refocus on application process
