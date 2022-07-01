@@ -1,14 +1,14 @@
 const sbeve = require('./sbeve.js')
 
-print("Type ANYTHING EVER MADE and I will print the characters with personal lines, but BACKWARDS! OOOOHHHHHHHHH")
-
-var anythingEverMade = input()
-
-var countula = anythingEverMade.length - 1
+print("Type ANYTHING EVER MADE and I will print the characters on their own personal lines, but BACKWARDS! OOOOHHHHHHHHH")
 
 
-while (countula > -1) {
+var daInput = input()
 
-    print("Character #"+countula+": "+anythingEverMade[countula])
-    countula -= 1
+for (let index = daInput.length - 1; index >= 0; index-=1) {
+    let element = daInput[index];
+    
+    console.log(element)
+
 }
+
