@@ -2,16 +2,17 @@ const sbeve = require('./sbeve.js')
 
 print("Type ANYTHING EVER MADE and I will print each character on IT'S VERY OWN PRIVATE LINE!")
 
-var anythingEverMade = input()
+const anythingEverMade = input()
 
-var countula = 0
+let stringLength = anythingEverMade.length
 
 // note:            variable = variable + 1
 // IS EQUAL TO              ===
 ///                     variable += 1
 
-while (countula < anythingEverMade.length) {
+for (let countula = 0; countula < stringLength; countula+=1) {
+    const element = anythingEverMade[countula];
 
-    print("Character #"+countula+": "+anythingEverMade[countula])
-    countula += 1
+    console.log(element)
+    
 }
