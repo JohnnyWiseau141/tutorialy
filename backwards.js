@@ -1,16 +1,35 @@
 const sbeve = require('./sbeve.js')
 
-print("Type something and it will be printed backwards! Ya foo!")
+console.log("Type something and it will be printed backwards! Ya foo!")
 
-var backInput = input()
 
-var zeroCounter = backInput.length
+//wow this is super easy you literally just have it start from the back of the string and it increments down in the for loop
 
-backwardGrowth = ""
 
-while (zeroCounter > 0) {
-    backwardGrowth = backwardGrowth + backInput[zeroCounter - 1]
-    zeroCounter -= 1
+const daInputNoFiveIsAlive = input()
+
+let daStringsLength = daInputNoFiveIsAlive.length
+
+let newString = ""
+
+for (let index = daStringsLength - 1; index >= 0; index-=1) {
+    const element = daInputNoFiveIsAlive[index];
+
+    newString += element
 }
 
-print("Your backbutt string: "+backwardGrowth)
+console.log(newString)
+
+
+// var backInput = input()
+
+// var zeroCounter = backInput.length
+
+// backwardGrowth = ""
+
+// while (zeroCounter > 0) {
+//     backwardGrowth = backwardGrowth + backInput[zeroCounter - 1]
+//     zeroCounter -= 1
+// }
+
+// print("Your backbutt string: "+backwardGrowth)
