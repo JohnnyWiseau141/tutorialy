@@ -2,21 +2,15 @@ const sbeve = require('./sbeve.js')
 
 console.log("Enter a number to count to:")
 
-var daChosenNumero
-daChosenNumero = sbeve.inputNumber()
 
-var counter
-counter = 1
+const daChosenNumero = sbeve.inputNumber()
 
-var 
-evolvingNo = ""
 
-while (counter <= daChosenNumero) {
-    
+
+let evolvingNo = ""
+
+for (let counter = 1; counter <= daChosenNumero; counter++) {
     evolvingNo = evolvingNo + counter+" "
-
-    counter = counter + 1
-
 }
 
 console.log(evolvingNo)
